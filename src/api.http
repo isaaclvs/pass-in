@@ -1,0 +1,9 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "Aniversário do Jota",
+  "details": "O melhor evento do ano 2",
+  "maximumAttendees": 10
+}
+
