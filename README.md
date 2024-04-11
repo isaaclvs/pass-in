@@ -80,3 +80,20 @@ CREATE UNIQUE INDEX "attendees_event_id_email_key" ON "attendees"("event_id", "e
 -- CreateIndex
 CREATE UNIQUE INDEX "check_ins_attendeeId_key" ON "check_ins"("attendeeId");
 ```
+
+## Anotações
+
+Métodos/verbos (Methods/verbs): get, post, put, delete, patch, head, options...
+
+Corpo da requisição (Body request)
+Parâmetros de busca (search params / query params) 'http://localhost:3333/users?name=Isaac'
+Parâmetros de rota (route params) -> identificação de recursos 'DELETE http://localhost:3333/user/5'
+Cabeçalhos (headers) -> Contexto
+
+JSON - JavaScript Object Notation  ->  Serve para a comunicação entre front-end e back-end
+
+Status code: 
+200... => Sucesso
+300... => Redirecionamento
+400... => Erro do cliente (erro em alguma informação enviada por QUEM está fazendo a chamada para a API)
+500... => Erro do servidor (um erro que está acontecendo INDEPENDENTE do que está sendo enviado para o servidor)
